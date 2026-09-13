@@ -7,17 +7,26 @@
 ### 🧰 Stack
 <img src="https://img.shields.io/badge/LetsDefend-Training-555555" alt="LetsDefend"> <img src="https://img.shields.io/badge/CyberDefenders-Training-555555" alt="CyberDefenders"> <img src="https://img.shields.io/badge/SOC-Alert_Triage-555555" alt="SOC Alert Triage">
 
-## 🎯 Why I built this lab
-The goal is to build repeatable L1 triage habits: quickly understand what fired, gather the right context, decide whether the activity is malicious, and leave a clear handoff for the next analyst.
+## 🎯 Objective
+Build repeatable L1 triage habits: understand what fired, gather the right context, decide whether the activity is malicious, and leave a clear handoff for the next analyst.
 
-## 🔎 My triage workflow
+## 🗺️ Repository map
 
-1. **Initial review** — alert type, timestamp, source, destination and affected asset/user.
-2. **Context gathering** — related logs and asset/user information.
-3. **Analysis** — malicious, suspicious-but-benign or false positive?
-4. **Severity assessment** — confidence, impact and urgency.
-5. **Decision & escalation** — close, monitor or escalate with justification.
-6. **Reporting** — concise analyst handoff for the next shift/L2.
+| Path | Purpose |
+|---|---|
+| [`docs/01-triage-standard.md`](docs/01-triage-standard.md) | Standard L1 investigation sequence |
+| [`cases/`](cases/) | Individual investigations and reusable case template |
+| [`evidence/`](evidence/) | Evidence quality and sanitisation rules |
+
+## 🔎 Triage workflow
+
+1. **Initial review** — alert type, timestamp, source, destination, asset and user.
+2. **Context gathering** — related logs and identity/asset context.
+3. **Analysis** — expected, suspicious or malicious?
+4. **Verdict** — True Positive / False Positive / Suspicious.
+5. **Severity** — confidence, impact and urgency.
+6. **Decision** — close, monitor or escalate with justification.
+7. **Handoff** — concise evidence-backed notes for L2 or the next shift.
 
 ## 🗂️ Case documentation standard
 
@@ -31,12 +40,8 @@ The goal is to build repeatable L1 triage habits: quickly understand what fired,
 | Action | Close / Monitor / Escalate |
 | Rationale | Evidence supporting the decision |
 
-## 🧠 What I'm practising
-**Alert triage • evidence collection • true/false-positive analysis • severity assessment • escalation decisions • incident documentation**
-
-## 📌 Evidence roadmap
-
-The repository is being expanded with sanitised case write-ups, screenshots and case-by-case investigation notes. No live malicious content or sensitive data will be published.
+## 🧠 Skills being practised
+**Alert triage • evidence collection • false-positive analysis • severity assessment • escalation decisions • incident documentation**
 
 ## Scope & ethics
-All investigations are performed in authorised educational/simulated environments.
+All investigations are performed in authorised educational or simulated environments. Sensitive data and live malicious content are not published.
