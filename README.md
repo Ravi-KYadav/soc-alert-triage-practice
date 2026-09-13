@@ -1,50 +1,42 @@
 # SOC Alert Triage Practice
 
-**SOC Analyst L1 Portfolio Project · Alert Investigation & Incident Triage**
+**SOC Analyst L1 Lab · Alert Investigation · Incident Triage**
 
-> **Status: Active / case library being expanded**
+> 🟢 **Status: Active — case library is being expanded**
 
-## Objective
-Build repeatable alert-triage muscle memory using simulated investigations from LetsDefend and CyberDefenders.
+### 🧰 Stack
+<img src="https://img.shields.io/badge/LetsDefend-Training-555555" alt="LetsDefend"> <img src="https://img.shields.io/badge/CyberDefenders-Training-555555" alt="CyberDefenders"> <img src="https://img.shields.io/badge/SOC-Alert_Triage-555555" alt="SOC Alert Triage">
 
-## Triage Methodology
+## 🎯 Why I built this lab
+The goal is to build repeatable L1 triage habits: quickly understand what fired, gather the right context, decide whether the activity is malicious, and leave a clear handoff for the next analyst.
 
-For each alert, follow a consistent L1 workflow:
+## 🔎 My triage workflow
 
-1. **Initial Review** — identify alert type, timestamp, source, destination and affected asset/user.
-2. **Context Gathering** — collect related logs and asset/user context.
-3. **Analysis** — determine whether activity is malicious, suspicious-but-benign or a false positive.
-4. **Severity Assessment** — evaluate confidence, impact and urgency.
-5. **Decision & Escalation** — close, monitor or escalate with clear justification.
-6. **Reporting** — produce a concise analyst handoff for the next shift/L2.
+1. **Initial review** — alert type, timestamp, source, destination and affected asset/user.
+2. **Context gathering** — related logs and asset/user information.
+3. **Analysis** — malicious, suspicious-but-benign or false positive?
+4. **Severity assessment** — confidence, impact and urgency.
+5. **Decision & escalation** — close, monitor or escalate with justification.
+6. **Reporting** — concise analyst handoff for the next shift/L2.
 
-## Case Documentation Standard
+## 🗂️ Case documentation standard
 
-Each completed case should record:
-
-| Field | Analyst Output |
+| Field | Analyst output |
 |---|---|
 | Alert | What triggered the investigation |
 | Evidence | Relevant logs, IPs, users, hosts, processes or domains |
-| Timeline | Important events in chronological order |
+| Timeline | Important events in order |
 | Verdict | True Positive / False Positive / Suspicious |
 | Severity | Informational / Low / Medium / High / Critical |
 | Action | Close / Monitor / Escalate |
 | Rationale | Evidence supporting the decision |
 
-## Platforms
+## 🧠 What I'm practising
+**Alert triage • evidence collection • true/false-positive analysis • severity assessment • escalation decisions • incident documentation**
 
-- [LetsDefend](https://letsdefend.io)
-- [CyberDefenders](https://cyberdefenders.org)
+## 📌 Evidence roadmap
 
-## SOC Skills Demonstrated
+The repository is being expanded with sanitised case write-ups, screenshots and case-by-case investigation notes. No live malicious content or sensitive data will be published.
 
-Alert triage · evidence collection · true/false-positive analysis · severity assessment · escalation decisions · incident documentation
-
-## Evidence Roadmap
-
-The repository is being expanded with sanitized case write-ups, screenshots and case-by-case investigation notes. No live malicious content or sensitive data will be published.
-
-## Scope & Ethics
-
-All investigations are performed in authorized educational/simulated environments.
+## Scope & ethics
+All investigations are performed in authorised educational/simulated environments.
